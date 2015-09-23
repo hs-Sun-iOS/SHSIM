@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "LoginManager.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [[LoginManager shareManager] loginToSeverWith:@"hs.sun" andPassword:@"123456" successfulHandle:^{
+        NSLog(@"success");
+    } andfailureHandle:^(NSError *error) {
+        NSLog(@"failure:%@",error.localizedDescription);
+    }];
     return YES;
 }
 
