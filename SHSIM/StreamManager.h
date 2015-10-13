@@ -1,5 +1,5 @@
 //
-//  LoginManager.h
+//  StreamManager.h
 //  SHSIM
 //
 //  Created by apple on 15/9/23.
@@ -8,12 +8,31 @@
 
 #import <Foundation/Foundation.h>
 
-@interface LoginManager : NSObject
+typedef NS_ENUM(NSUInteger, StreamResultType) {
+    StreamResultTypeSussessful,
+    StreamResultTypeFailure,
+    StreamResultTypeTimeout,
+};
+
+@interface StreamManager : NSObject
+
+@property (nonatomic,assign,getter=isLogin,readonly) BOOL loginStatus;
+@property (nonatomic,assign,getter=isConnect,readonly) BOOL connectStatus;
 
 + (instancetype)shareManager;
 
-- (void)loginToSeverWith:(NSString *)account andPassword:(NSString *)password successfulHandle:(void(^)())successfulHandle andfailureHandle:(void(^)(NSError *error))failureHandle;
+- (void)loginToSeverWithAccount:(NSString *)account andPassword:(NSString *)password completeBlock:(void(^)(StreamResultType resultType))completeBlock;
+
+- (void)registerNewAccount:(NSString *)account andPassword:(NSString *)password completeBlock:(void(^)(StreamResultType resultType))completeBlock;
 
 - (void)logoutFromSever;
+
+- (NSString *)loadAccountFromSandbox;
+
+- (NSString *)loadPasswordFromSandbox;
+
+- (void)saveAccountToSandbox:(NSString *)account;
+
+- (void)savePasswordToSandbox:(NSString *)password;
 
 @end

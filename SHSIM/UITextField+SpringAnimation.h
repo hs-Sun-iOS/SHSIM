@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UITextField_SpringAnimation : UITextField
+@interface UITextField(SpringAnimation)
+
+- (void)textFieldSpringAnimation;
 
 @end

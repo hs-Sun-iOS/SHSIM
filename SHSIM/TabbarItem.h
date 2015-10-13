@@ -8,6 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TabbarItem : UIButton
+static const NSString *KImageAttribute = @"image";
+static const NSString *KImageSelectedAttribute = @"selectedImage";
+static const NSString *KTitleAttribute = @"title";
+
+@interface TabbarItem : UIView
+
+@property (nonatomic,assign) NSInteger badgeValue;
+@property (nonatomic,assign) float highLightDegree;
+
+- (instancetype)initWithFrame:(CGRect)frame andAttributes:(NSDictionary *)attributes;
 
 @end

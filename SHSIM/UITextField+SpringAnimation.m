@@ -8,14 +8,14 @@
 
 #import "UITextField+SpringAnimation.h"
 
-@implementation UITextField_SpringAnimation
+@implementation UITextField(SpringAnimation)
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
-    // Drawing code
+- (void)textFieldSpringAnimation {
+    self.layer.borderColor = [UIColor redColor].CGColor;
+    self.transform = CGAffineTransformMakeTranslation(5.0f, 0);
+    [UIView animateWithDuration:0.5 delay:0 usingSpringWithDamping:0.1 initialSpringVelocity:5 options:UIViewAnimationOptionCurveEaseInOut animations:^{
+        self.transform = CGAffineTransformIdentity;
+    } completion:nil];
 }
-*/
 
 @end

@@ -7,6 +7,7 @@
 //
 
 #import "MeViewController.h"
+#import "StreamManager.h"
 
 @interface MeViewController ()
 
@@ -14,24 +15,21 @@
 
 @implementation MeViewController
 
+#pragma mark life cycle
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.view.layer.shadowOffset = CGSizeMake(5, 0);
+    self.view.layer.shadowOpacity = 0.5f;
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+
+- (IBAction)LogoutBtnClick:(id)sender {
+    [[StreamManager shareManager] logoutFromSever];
+    UIStoryboard *loginSB = [UIStoryboard storyboardWithName:@"Login" bundle:nil];
+    self.view.window.rootViewController = loginSB.instantiateInitialViewController;
+    
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

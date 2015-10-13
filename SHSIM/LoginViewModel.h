@@ -10,4 +10,22 @@
 
 @interface LoginViewModel : NSObject
 
+@property (nonatomic,copy) NSString *account;
+
+@property (nonatomic,copy) NSString *password;
+
+@property (nonatomic,strong) RACSignal *loginBtnEnableSignal;
+
+@property (nonatomic,strong) RACSignal *loginModeSignal;
+
+@property (nonatomic,strong) RACSubject *loginCompleteSubject;
+
+
+/**
+ *  handle login
+ */
+@property (strong,nonatomic) RACCommand *loginCommend;
+
+
+
 @end

@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1801E77D1BBE658D00AAC72E /* UIImage+AutoStretch.m in Sources */ = {isa = PBXBuildFile; fileRef = 1801E77C1BBE658D00AAC72E /* UIImage+AutoStretch.m */; };
+		1801E7801BBEA14C00AAC72E /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1801E77F1BBEA14C00AAC72E /* RegisterViewController.m */; };
+		1801E7831BBEBAAF00AAC72E /* UITextField+SpringAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1801E7821BBEBAAF00AAC72E /* UITextField+SpringAnimation.m */; };
+		1803A42B1BB42912002F2DB4 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1803A42A1BB42912002F2DB4 /* LoginViewController.m */; };
+		18393B411BC696A7003286E8 /* LoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18393B401BC696A7003286E8 /* LoginViewModel.m */; };
 		183AD2001BB17B6B009ABBBB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 183AD1FF1BB17B6B009ABBBB /* main.m */; };
 		183AD2031BB17B6B009ABBBB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 183AD2021BB17B6B009ABBBB /* AppDelegate.m */; };
-		183AD2061BB17B6B009ABBBB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183AD2051BB17B6B009ABBBB /* ViewController.m */; };
 		183AD2091BB17B6B009ABBBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 183AD2071BB17B6B009ABBBB /* Main.storyboard */; };
 		183AD20B1BB17B6B009ABBBB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 183AD20A1BB17B6B009ABBBB /* Images.xcassets */; };
-		183AD20E1BB17B6B009ABBBB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 183AD20C1BB17B6B009ABBBB /* LaunchScreen.xib */; };
 		183AD21A1BB17B6B009ABBBB /* SHSIMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 183AD2191BB17B6B009ABBBB /* SHSIMTests.m */; };
 		183AD2251BB17BFE009ABBBB /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 183AD2241BB17BFE009ABBBB /* libxml2.dylib */; };
 		183AD42F1BB17CD3009ABBBB /* libresolv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 183AD42E1BB17CD3009ABBBB /* libresolv.dylib */; };
@@ -144,8 +147,22 @@
 		183AD5FD1BB1ACC8009ABBBB /* DDXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 183AD5771BB1ACC8009ABBBB /* DDXMLNode.m */; };
 		183AD5FE1BB1ACC8009ABBBB /* build-libidn.sh in Resources */ = {isa = PBXBuildFile; fileRef = 183AD57B1BB1ACC8009ABBBB /* build-libidn.sh */; };
 		183AD5FF1BB1ACC8009ABBBB /* libidn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 183AD57D1BB1ACC8009ABBBB /* libidn.a */; };
-		184A22D41BB2D24200349915 /* LoginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 184A22D31BB2D24200349915 /* LoginManager.m */; };
+		184074BE1BBABCBE00F3098F /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184074BD1BBABCBE00F3098F /* ChatViewController.m */; };
+		184074C11BBABCDF00F3098F /* AddressBookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184074C01BBABCDF00F3098F /* AddressBookViewController.m */; };
+		184074C41BBABCED00F3098F /* DiscoveryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184074C31BBABCED00F3098F /* DiscoveryViewController.m */; };
+		184074C71BBABCF900F3098F /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184074C61BBABCF900F3098F /* MeViewController.m */; };
+		184074CA1BBAC1CA00F3098F /* TabbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184074C91BBAC1CA00F3098F /* TabbarViewController.m */; };
+		184074CD1BBAC46C00F3098F /* TabbarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 184074CC1BBAC46C00F3098F /* TabbarItem.m */; };
+		184074D11BBAC92E00F3098F /* UIView+FrameAdjust.m in Sources */ = {isa = PBXBuildFile; fileRef = 184074D01BBAC92E00F3098F /* UIView+FrameAdjust.m */; };
+		184A22D41BB2D24200349915 /* StreamManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 184A22D31BB2D24200349915 /* StreamManager.m */; };
 		184A22D71BB2F87D00349915 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184A22D61BB2F87D00349915 /* Login.storyboard */; };
+		184C10551BCBD70C00E34BB1 /* TabBarViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 184C10541BCBD70C00E34BB1 /* TabBarViewModel.m */; settings = {ASSET_TAGS = (); }; };
+		18B9C0601BCD6BA300DC5FAA /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B9C05F1BCD6BA300DC5FAA /* libxml2.tbd */; };
+		18B9C0621BCD6BB500DC5FAA /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B9C0611BCD6BB500DC5FAA /* libresolv.tbd */; };
+		18F31BF61BB9747200E6C6CF /* MBProgressHUD+fastSetup.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F31BF21BB9747200E6C6CF /* MBProgressHUD+fastSetup.m */; };
+		18F31BF71BB9747200E6C6CF /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 18F31BF31BB9747200E6C6CF /* MBProgressHUD.bundle */; };
+		18F31BF81BB9747200E6C6CF /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F31BF51BB9747200E6C6CF /* MBProgressHUD.m */; };
+		2EC96A793B1BF81D53F07895 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C740EB58628EC70AAC116642 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -159,16 +176,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1801E77B1BBE658D00AAC72E /* UIImage+AutoStretch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+AutoStretch.h"; sourceTree = "<group>"; };
+		1801E77C1BBE658D00AAC72E /* UIImage+AutoStretch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+AutoStretch.m"; sourceTree = "<group>"; };
+		1801E77E1BBEA14C00AAC72E /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		1801E77F1BBEA14C00AAC72E /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		1801E7811BBEBAAF00AAC72E /* UITextField+SpringAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+SpringAnimation.h"; sourceTree = "<group>"; };
+		1801E7821BBEBAAF00AAC72E /* UITextField+SpringAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+SpringAnimation.m"; sourceTree = "<group>"; };
+		1803A4291BB42912002F2DB4 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		1803A42A1BB42912002F2DB4 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		18393B3F1BC696A7003286E8 /* LoginViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewModel.h; sourceTree = "<group>"; };
+		18393B401BC696A7003286E8 /* LoginViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewModel.m; sourceTree = "<group>"; };
 		183AD1FA1BB17B6B009ABBBB /* SHSIM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SHSIM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		183AD1FE1BB17B6B009ABBBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		183AD1FF1BB17B6B009ABBBB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		183AD2011BB17B6B009ABBBB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		183AD2021BB17B6B009ABBBB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		183AD2041BB17B6B009ABBBB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		183AD2051BB17B6B009ABBBB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		183AD2081BB17B6B009ABBBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		183AD20A1BB17B6B009ABBBB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		183AD20D1BB17B6B009ABBBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		183AD2131BB17B6B009ABBBB /* SHSIMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SHSIMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		183AD2181BB17B6B009ABBBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		183AD2191BB17B6B009ABBBB /* SHSIMTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHSIMTests.m; sourceTree = "<group>"; };
@@ -440,11 +464,34 @@
 		183AD57D1BB1ACC8009ABBBB /* libidn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libidn.a; sourceTree = "<group>"; };
 		183AD57E1BB1ACC8009ABBBB /* stringprep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stringprep.h; sourceTree = "<group>"; };
 		183AD57F1BB1ACC8009ABBBB /* XMPPFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPPFramework.h; sourceTree = "<group>"; };
-		184A22D21BB2D24200349915 /* LoginManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginManager.h; sourceTree = "<group>"; };
-		184A22D31BB2D24200349915 /* LoginManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginManager.m; sourceTree = "<group>"; };
+		184074BC1BBABCBE00F3098F /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
+		184074BD1BBABCBE00F3098F /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
+		184074BF1BBABCDF00F3098F /* AddressBookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressBookViewController.h; sourceTree = "<group>"; };
+		184074C01BBABCDF00F3098F /* AddressBookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressBookViewController.m; sourceTree = "<group>"; };
+		184074C21BBABCED00F3098F /* DiscoveryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoveryViewController.h; sourceTree = "<group>"; };
+		184074C31BBABCED00F3098F /* DiscoveryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoveryViewController.m; sourceTree = "<group>"; };
+		184074C51BBABCF900F3098F /* MeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeViewController.h; sourceTree = "<group>"; };
+		184074C61BBABCF900F3098F /* MeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeViewController.m; sourceTree = "<group>"; };
+		184074C81BBAC1CA00F3098F /* TabbarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabbarViewController.h; sourceTree = "<group>"; };
+		184074C91BBAC1CA00F3098F /* TabbarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabbarViewController.m; sourceTree = "<group>"; };
+		184074CB1BBAC46C00F3098F /* TabbarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabbarItem.h; sourceTree = "<group>"; };
+		184074CC1BBAC46C00F3098F /* TabbarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabbarItem.m; sourceTree = "<group>"; };
+		184074CF1BBAC92E00F3098F /* UIView+FrameAdjust.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FrameAdjust.h"; sourceTree = "<group>"; };
+		184074D01BBAC92E00F3098F /* UIView+FrameAdjust.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FrameAdjust.m"; sourceTree = "<group>"; };
+		184A22D21BB2D24200349915 /* StreamManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StreamManager.h; sourceTree = "<group>"; };
+		184A22D31BB2D24200349915 /* StreamManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StreamManager.m; sourceTree = "<group>"; };
 		184A22D61BB2F87D00349915 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		184C10531BCBD70C00E34BB1 /* TabBarViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarViewModel.h; sourceTree = "<group>"; };
+		184C10541BCBD70C00E34BB1 /* TabBarViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarViewModel.m; sourceTree = "<group>"; };
+		18B9C05F1BCD6BA300DC5FAA /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		18B9C0611BCD6BB500DC5FAA /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+		18F31BF11BB9747200E6C6CF /* MBProgressHUD+fastSetup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+fastSetup.h"; sourceTree = "<group>"; };
+		18F31BF21BB9747200E6C6CF /* MBProgressHUD+fastSetup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+fastSetup.m"; sourceTree = "<group>"; };
+		18F31BF31BB9747200E6C6CF /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		18F31BF41BB9747200E6C6CF /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		18F31BF51BB9747200E6C6CF /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		8C007E092A105FC6434040F1 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		C05066399366A32C0EA7C5AF /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C740EB58628EC70AAC116642 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0914C3122434114F06BC766 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -453,9 +500,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18B9C0621BCD6BB500DC5FAA /* libresolv.tbd in Frameworks */,
+				18B9C0601BCD6BA300DC5FAA /* libxml2.tbd in Frameworks */,
 				183AD5FF1BB1ACC8009ABBBB /* libidn.a in Frameworks */,
 				183AD42F1BB17CD3009ABBBB /* libresolv.dylib in Frameworks */,
 				183AD2251BB17BFE009ABBBB /* libxml2.dylib in Frameworks */,
+				2EC96A793B1BF81D53F07895 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -469,6 +519,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18393B3E1BC6965F003286E8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				18393B3F1BC696A7003286E8 /* LoginViewModel.h */,
+				18393B401BC696A7003286E8 /* LoginViewModel.m */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
 		183AD1F11BB17B6B009ABBBB = {
 			isa = PBXGroup;
 			children = (
@@ -492,14 +551,11 @@
 		183AD1FC1BB17B6B009ABBBB /* SHSIM */ = {
 			isa = PBXGroup;
 			children = (
-				184A22D11BB2D1C600349915 /* Login */,
 				183AD2011BB17B6B009ABBBB /* AppDelegate.h */,
 				183AD2021BB17B6B009ABBBB /* AppDelegate.m */,
-				183AD2041BB17B6B009ABBBB /* ViewController.h */,
-				183AD2051BB17B6B009ABBBB /* ViewController.m */,
-				183AD2071BB17B6B009ABBBB /* Main.storyboard */,
-				183AD20A1BB17B6B009ABBBB /* Images.xcassets */,
-				183AD20C1BB17B6B009ABBBB /* LaunchScreen.xib */,
+				184A22D11BB2D1C600349915 /* Login */,
+				184074B71BBABBA700F3098F /* Main */,
+				18F31BF91BB9972000E6C6CF /* Common */,
 				183AD2261BB17C08009ABBBB /* Lib */,
 				183AD1FD1BB17B6B009ABBBB /* Supporting Files */,
 			);
@@ -509,6 +565,7 @@
 		183AD1FD1BB17B6B009ABBBB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				183AD20A1BB17B6B009ABBBB /* Images.xcassets */,
 				183AD42E1BB17CD3009ABBBB /* libresolv.dylib */,
 				183AD2241BB17BFE009ABBBB /* libxml2.dylib */,
 				183AD1FE1BB17B6B009ABBBB /* Info.plist */,
@@ -538,6 +595,7 @@
 		183AD2261BB17C08009ABBBB /* Lib */ = {
 			isa = PBXGroup;
 			children = (
+				18F31BF01BB9747200E6C6CF /* MBProgressHUD */,
 				184A22D91BB2F8EF00349915 /* ReactiveCocoa */,
 				183AD4321BB1ACC8009ABBBB /* XMPP */,
 			);
@@ -1328,10 +1386,72 @@
 			path = libidn;
 			sourceTree = "<group>";
 		};
+		184074B71BBABBA700F3098F /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				184C10501BCBD63700E34BB1 /* TabBar */,
+				183AD2071BB17B6B009ABBBB /* Main.storyboard */,
+				184074B81BBABBC200F3098F /* Chat */,
+				184074B91BBABBE100F3098F /* AddressBook */,
+				184074BA1BBABC2300F3098F /* Discovery */,
+				184074BB1BBABC3300F3098F /* Me */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		184074B81BBABBC200F3098F /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				184074BC1BBABCBE00F3098F /* ChatViewController.h */,
+				184074BD1BBABCBE00F3098F /* ChatViewController.m */,
+			);
+			name = Chat;
+			sourceTree = "<group>";
+		};
+		184074B91BBABBE100F3098F /* AddressBook */ = {
+			isa = PBXGroup;
+			children = (
+				184074BF1BBABCDF00F3098F /* AddressBookViewController.h */,
+				184074C01BBABCDF00F3098F /* AddressBookViewController.m */,
+			);
+			name = AddressBook;
+			sourceTree = "<group>";
+		};
+		184074BA1BBABC2300F3098F /* Discovery */ = {
+			isa = PBXGroup;
+			children = (
+				184074C21BBABCED00F3098F /* DiscoveryViewController.h */,
+				184074C31BBABCED00F3098F /* DiscoveryViewController.m */,
+			);
+			name = Discovery;
+			sourceTree = "<group>";
+		};
+		184074BB1BBABC3300F3098F /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				184074C51BBABCF900F3098F /* MeViewController.h */,
+				184074C61BBABCF900F3098F /* MeViewController.m */,
+			);
+			name = Me;
+			sourceTree = "<group>";
+		};
+		184074CE1BBAC8E700F3098F /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				184074CF1BBAC92E00F3098F /* UIView+FrameAdjust.h */,
+				184074D01BBAC92E00F3098F /* UIView+FrameAdjust.m */,
+				1801E77B1BBE658D00AAC72E /* UIImage+AutoStretch.h */,
+				1801E77C1BBE658D00AAC72E /* UIImage+AutoStretch.m */,
+				1801E7811BBEBAAF00AAC72E /* UITextField+SpringAnimation.h */,
+				1801E7821BBEBAAF00AAC72E /* UITextField+SpringAnimation.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
 		184A22D11BB2D1C600349915 /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				184A22D61BB2F87D00349915 /* Login.storyboard */,
+				18393B3E1BC6965F003286E8 /* ViewModel */,
 				184A22D51BB2F84400349915 /* Helper */,
 				184A22D81BB2F88700349915 /* View */,
 			);
@@ -1341,8 +1461,8 @@
 		184A22D51BB2F84400349915 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
-				184A22D21BB2D24200349915 /* LoginManager.h */,
-				184A22D31BB2D24200349915 /* LoginManager.m */,
+				184A22D21BB2D24200349915 /* StreamManager.h */,
+				184A22D31BB2D24200349915 /* StreamManager.m */,
 			);
 			name = Helper;
 			sourceTree = "<group>";
@@ -1350,6 +1470,11 @@
 		184A22D81BB2F88700349915 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				184A22D61BB2F87D00349915 /* Login.storyboard */,
+				1803A4291BB42912002F2DB4 /* LoginViewController.h */,
+				1803A42A1BB42912002F2DB4 /* LoginViewController.m */,
+				1801E77E1BBEA14C00AAC72E /* RegisterViewController.h */,
+				1801E77F1BBEA14C00AAC72E /* RegisterViewController.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -1361,10 +1486,61 @@
 			name = ReactiveCocoa;
 			sourceTree = "<group>";
 		};
+		184C10501BCBD63700E34BB1 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				184C10521BCBD6D300E34BB1 /* ViewModel */,
+				184C10511BCBD6C400E34BB1 /* View */,
+			);
+			name = TabBar;
+			sourceTree = "<group>";
+		};
+		184C10511BCBD6C400E34BB1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				184074C81BBAC1CA00F3098F /* TabbarViewController.h */,
+				184074C91BBAC1CA00F3098F /* TabbarViewController.m */,
+				184074CB1BBAC46C00F3098F /* TabbarItem.h */,
+				184074CC1BBAC46C00F3098F /* TabbarItem.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		184C10521BCBD6D300E34BB1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				184C10531BCBD70C00E34BB1 /* TabBarViewModel.h */,
+				184C10541BCBD70C00E34BB1 /* TabBarViewModel.m */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		18F31BF01BB9747200E6C6CF /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				18F31BF11BB9747200E6C6CF /* MBProgressHUD+fastSetup.h */,
+				18F31BF21BB9747200E6C6CF /* MBProgressHUD+fastSetup.m */,
+				18F31BF31BB9747200E6C6CF /* MBProgressHUD.bundle */,
+				18F31BF41BB9747200E6C6CF /* MBProgressHUD.h */,
+				18F31BF51BB9747200E6C6CF /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		18F31BF91BB9972000E6C6CF /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				184074CE1BBAC8E700F3098F /* Category */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
 		6B5D4D354EEF0476202A9367 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C05066399366A32C0EA7C5AF /* libPods.a */,
+				18B9C0611BCD6BB500DC5FAA /* libresolv.tbd */,
+				18B9C05F1BCD6BA300DC5FAA /* libxml2.tbd */,
+				C740EB58628EC70AAC116642 /* Pods.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1385,9 +1561,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 183AD21D1BB17B6B009ABBBB /* Build configuration list for PBXNativeTarget "SHSIM" */;
 			buildPhases = (
+				99A6C8E4DC2EE2AB006260FF /* Check Pods Manifest.lock */,
 				183AD1F61BB17B6B009ABBBB /* Sources */,
 				183AD1F71BB17B6B009ABBBB /* Frameworks */,
 				183AD1F81BB17B6B009ABBBB /* Resources */,
+				DDF011DF95C6AE360B7CADF7 /* Embed Pods Frameworks */,
+				315BC9FDE6AD2BCE1EFAA1DA /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1422,7 +1601,7 @@
 		183AD1F21BB17B6B009ABBBB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0620;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = SHSDeveloper;
 				TargetAttributes = {
 					183AD1F91BB17B6B009ABBBB = {
@@ -1461,9 +1640,9 @@
 				183AD5FE1BB1ACC8009ABBBB /* build-libidn.sh in Resources */,
 				183AD2091BB17B6B009ABBBB /* Main.storyboard in Resources */,
 				184A22D71BB2F87D00349915 /* Login.storyboard in Resources */,
-				183AD20E1BB17B6B009ABBBB /* LaunchScreen.xib in Resources */,
 				183AD5F91BB1ACC8009ABBBB /* README.txt in Resources */,
 				183AD20B1BB17B6B009ABBBB /* Images.xcassets in Resources */,
+				18F31BF71BB9747200E6C6CF /* MBProgressHUD.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1475,6 +1654,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		315BC9FDE6AD2BCE1EFAA1DA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99A6C8E4DC2EE2AB006260FF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DDF011DF95C6AE360B7CADF7 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		183AD1F61BB17B6B009ABBBB /* Sources */ = {
@@ -1493,6 +1720,7 @@
 				183AD5921BB1ACC8009ABBBB /* XMPPBandwidthMonitor.m in Sources */,
 				183AD59E1BB1ACC8009ABBBB /* XMPPUserMemoryStorageObject.m in Sources */,
 				183AD5DD1BB1ACC8009ABBBB /* XMPPMessageDeliveryReceipts.m in Sources */,
+				184074CA1BBAC1CA00F3098F /* TabbarViewController.m in Sources */,
 				183AD5871BB1ACC8009ABBBB /* NSData+XMPP.m in Sources */,
 				183AD5971BB1ACC8009ABBBB /* XMPPGroupCoreDataStorageObject.m in Sources */,
 				183AD5D71BB1ACC8009ABBBB /* XMPPMessageArchivingCoreDataStorage.m in Sources */,
@@ -1505,16 +1733,17 @@
 				183AD5D91BB1ACC8009ABBBB /* XMPPvCardAvatarModule.m in Sources */,
 				183AD5B71BB1ACC8009ABBBB /* XMPPvCardCoreDataStorage.m in Sources */,
 				183AD5B11BB1ACC8009ABBBB /* XMPPRoomOccupantMemoryStorageObject.m in Sources */,
-				183AD2061BB17B6B009ABBBB /* ViewController.m in Sources */,
 				183AD5D01BB1ACC8009ABBBB /* XMPPCapabilitiesCoreDataStorage.m in Sources */,
 				183AD5BB1BB1ACC8009ABBBB /* XMPPvCardTempAdr.m in Sources */,
+				184074BE1BBABCBE00F3098F /* ChatViewController.m in Sources */,
 				183AD2031BB17B6B009ABBBB /* AppDelegate.m in Sources */,
 				183AD5A51BB1ACC8009ABBBB /* XMPPLastActivity.m in Sources */,
 				183AD5D21BB1ACC8009ABBBB /* XMPPCapsResourceCoreDataStorageObject.m in Sources */,
 				183AD59C1BB1ACC8009ABBBB /* XMPPResourceMemoryStorageObject.m in Sources */,
 				183AD5ED1BB1ACC8009ABBBB /* RFImageToDataTransformer.m in Sources */,
 				183AD5941BB1ACC8009ABBBB /* XMPPGoogleSharedStatus.m in Sources */,
-				184A22D41BB2D24200349915 /* LoginManager.m in Sources */,
+				184A22D41BB2D24200349915 /* StreamManager.m in Sources */,
+				184074CD1BBAC46C00F3098F /* TabbarItem.m in Sources */,
 				183AD5AB1BB1ACC8009ABBBB /* XMPPRoomHybrid.xcdatamodeld in Sources */,
 				183AD59F1BB1ACC8009ABBBB /* XMPPRoster.m in Sources */,
 				183AD5EE1BB1ACC8009ABBBB /* XMPPIDTracker.m in Sources */,
@@ -1526,6 +1755,7 @@
 				183AD5C71BB1ACC8009ABBBB /* XMPPIQ+XEP_0066.m in Sources */,
 				183AD5EA1BB1ACC8009ABBBB /* NSXMLElement+XEP_0335.m in Sources */,
 				183AD5B21BB1ACC8009ABBBB /* XMPPMessage+XEP0045.m in Sources */,
+				18F31BF61BB9747200E6C6CF /* MBProgressHUD+fastSetup.m in Sources */,
 				183AD5C61BB1ACC8009ABBBB /* TURNSocket.m in Sources */,
 				183AD5961BB1ACC8009ABBBB /* XMPPReconnect.m in Sources */,
 				183AD5B91BB1ACC8009ABBBB /* XMPPvCardTempCoreDataStorageObject.m in Sources */,
@@ -1534,7 +1764,9 @@
 				183AD5851BB1ACC8009ABBBB /* XMPPXFacebookPlatformAuthentication.m in Sources */,
 				183AD5F21BB1ACC8009ABBBB /* DDAbstractDatabaseLogger.m in Sources */,
 				183AD5F51BB1ACC8009ABBBB /* DDLog.m in Sources */,
+				184074C71BBABCF900F3098F /* MeViewController.m in Sources */,
 				183AD5F71BB1ACC8009ABBBB /* ContextFilterLogFormatter.m in Sources */,
+				1803A42B1BB42912002F2DB4 /* LoginViewController.m in Sources */,
 				183AD5F41BB1ACC8009ABBBB /* DDFileLogger.m in Sources */,
 				183AD5E81BB1ACC8009ABBBB /* XMPPMessage+XEP_0308.m in Sources */,
 				183AD5A41BB1ACC8009ABBBB /* XMPPIQ+LastActivity.m in Sources */,
@@ -1548,14 +1780,18 @@
 				183AD5831BB1ACC8009ABBBB /* XMPPDigestMD5Authentication.m in Sources */,
 				183AD5991BB1ACC8009ABBBB /* XMPPRoster.xcdatamodel in Sources */,
 				183AD5D11BB1ACC8009ABBBB /* XMPPCapsCoreDataStorageObject.m in Sources */,
+				184C10551BCBD70C00E34BB1 /* TabBarViewModel.m in Sources */,
+				184074C11BBABCDF00F3098F /* AddressBookViewController.m in Sources */,
 				183AD5EB1BB1ACC8009ABBBB /* DDList.m in Sources */,
 				183AD5F81BB1ACC8009ABBBB /* DispatchQueueLogFormatter.m in Sources */,
 				183AD58F1BB1ACC8009ABBBB /* XMPPParser.m in Sources */,
 				183AD5911BB1ACC8009ABBBB /* XMPPStream.m in Sources */,
 				183AD5841BB1ACC8009ABBBB /* XMPPPlainAuthentication.m in Sources */,
+				184074C41BBABCED00F3098F /* DiscoveryViewController.m in Sources */,
 				183AD5E01BB1ACC8009ABBBB /* XMPPPing.m in Sources */,
 				183AD5E21BB1ACC8009ABBBB /* XMPPTime.m in Sources */,
 				183AD5A61BB1ACC8009ABBBB /* XMPPPrivacy.m in Sources */,
+				18393B411BC696A7003286E8 /* LoginViewModel.m in Sources */,
 				183AD5D41BB1ACC8009ABBBB /* XMPPMessageArchiving.xcdatamodeld in Sources */,
 				183AD5B61BB1ACC8009ABBBB /* XMPPvCardAvatarCoreDataStorageObject.m in Sources */,
 				183AD5A71BB1ACC8009ABBBB /* XMPPRoom.xcdatamodeld in Sources */,
@@ -1566,8 +1802,11 @@
 				183AD5D61BB1ACC8009ABBBB /* XMPPMessageArchiving_Message_CoreDataObject.m in Sources */,
 				183AD5AA1BB1ACC8009ABBBB /* XMPPRoomOccupantCoreDataStorageObject.m in Sources */,
 				183AD5BC1BB1ACC8009ABBBB /* XMPPvCardTempAdrTypes.m in Sources */,
+				1801E7831BBEBAAF00AAC72E /* UITextField+SpringAnimation.m in Sources */,
 				183AD5A81BB1ACC8009ABBBB /* XMPPRoomCoreDataStorage.m in Sources */,
+				184074D11BBAC92E00F3098F /* UIView+FrameAdjust.m in Sources */,
 				183AD5CE1BB1ACC8009ABBBB /* NSString+XEP_0106.m in Sources */,
+				1801E7801BBEA14C00AAC72E /* RegisterViewController.m in Sources */,
 				183AD5B31BB1ACC8009ABBBB /* XMPPMUC.m in Sources */,
 				183AD5931BB1ACC8009ABBBB /* XMPPCoreDataStorage.m in Sources */,
 				183AD5861BB1ACC8009ABBBB /* XMPPXOAuth2Google.m in Sources */,
@@ -1582,6 +1821,7 @@
 				183AD5DB1BB1ACC8009ABBBB /* XMPPPresence+XEP_0172.m in Sources */,
 				183AD5A31BB1ACC8009ABBBB /* XMPPJabberRPCModule.m in Sources */,
 				183AD5CA1BB1ACC8009ABBBB /* XMPPDateTimeProfiles.m in Sources */,
+				18F31BF81BB9747200E6C6CF /* MBProgressHUD.m in Sources */,
 				183AD5C81BB1ACC8009ABBBB /* XMPPMessage+XEP_0066.m in Sources */,
 				183AD58B1BB1ACC8009ABBBB /* XMPPIQ.m in Sources */,
 				183AD5C41BB1ACC8009ABBBB /* XMPPIQ+XEP_0060.m in Sources */,
@@ -1609,6 +1849,7 @@
 				183AD5901BB1ACC8009ABBBB /* XMPPPresence.m in Sources */,
 				183AD5AF1BB1ACC8009ABBBB /* XMPPRoomMemoryStorage.m in Sources */,
 				183AD5C21BB1ACC8009ABBBB /* NSXMLElement+XEP_0059.m in Sources */,
+				1801E77D1BBE658D00AAC72E /* UIImage+AutoStretch.m in Sources */,
 				183AD5DC1BB1ACC8009ABBBB /* XMPPMessage+XEP_0184.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1640,14 +1881,6 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		183AD20C1BB17B6B009ABBBB /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				183AD20D1BB17B6B009ABBBB /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -1671,6 +1904,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -1734,11 +1968,13 @@
 			baseConfigurationReference = D0914C3122434114F06BC766 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "/Users/apple/Desktop/程序代码/SHSIM/SHSIM/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = /Users/apple/Desktop/SHSIM/SHSIM/PrefixHeader.pch;
 				GCC_USE_STANDARD_INCLUDE_SEARCHING = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1752,8 +1988,16 @@
 					"$(PROJECT_DIR)/SHSIM/XMPP/Vendor/libidn",
 				);
 				OTHER_CODE_SIGN_FLAGS = "";
-				OTHER_LDFLAGS = "-lxml2";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-lxml2",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PODS_ROOT = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = "SHSDeveloper.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SHSIM/SHSIM-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Debug;
@@ -1763,11 +2007,13 @@
 			baseConfigurationReference = 8C007E092A105FC6434040F1 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "/Users/apple/Desktop/程序代码/SHSIM/SHSIM/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = /Users/apple/Desktop/SHSIM/SHSIM/PrefixHeader.pch;
 				GCC_USE_STANDARD_INCLUDE_SEARCHING = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1781,8 +2027,15 @@
 					"$(PROJECT_DIR)/SHSIM/XMPP/Vendor/libidn",
 				);
 				OTHER_CODE_SIGN_FLAGS = "";
-				OTHER_LDFLAGS = "-lxml2";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-lxml2",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PODS_ROOT = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = "SHSDeveloper.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SHSIM/SHSIM-Bridging-Header.h";
 				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Release;
@@ -1801,6 +2054,7 @@
 				);
 				INFOPLIST_FILE = SHSIMTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SHSDeveloper.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SHSIM.app/SHSIM";
 			};
@@ -1816,6 +2070,7 @@
 				);
 				INFOPLIST_FILE = SHSIMTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SHSDeveloper.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SHSIM.app/SHSIM";
 			};

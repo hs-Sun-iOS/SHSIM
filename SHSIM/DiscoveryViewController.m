@@ -17,6 +17,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.view.backgroundColor = [UIColor blueColor];
+    self.view.layer.shadowOffset = CGSizeMake(5, 0);
+    self.view.layer.shadowOpacity = 0.5f;
 }
 
 - (void)didReceiveMemoryWarning {

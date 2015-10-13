@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "LoginManager.h"
+#import "StreamManager.h"
 
 @interface AppDelegate ()
 
@@ -17,12 +17,12 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
-    [[LoginManager shareManager] loginToSeverWith:@"hs.sun" andPassword:@"123456" successfulHandle:^{
-        NSLog(@"success");
-    } andfailureHandle:^(NSError *error) {
-        NSLog(@"failure:%@",error.localizedDescription);
-    }];
+    
+    if ([StreamManager shareManager].loginStatus) {
+        UIStoryboard *mainStoryBoard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+        self.window.rootViewController = mainStoryBoard.instantiateInitialViewController;
+    }
+    
     return YES;
 }
 
