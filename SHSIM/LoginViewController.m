@@ -31,17 +31,16 @@
 #pragma mark - life cycle
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    [self blindViewModel];
 }
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-    [self blindViewModel];
-    [self switchAccountBtnSignal];
 }
 
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
     [self configureSubViews];
+    [self switchAccountBtnSignal];
 }
 
 - (void)blindViewModel {

@@ -43,12 +43,13 @@
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-   
+    [self setupTabbarItem];
+    [self configureSubviews];
 }
 
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
-    [self setupTabbarItem];
+    
 
 }
 
@@ -67,6 +68,13 @@
         }
         [self.tabbarView addSubview:item];
         [self.items addObject:item];
+    }
+}
+
+- (void)configureSubviews {
+    for (UIView *view in self.scrollView.subviews) {
+        view.layer.shadowOffset = CGSizeMake(5, 0);
+        view.layer.shadowOpacity = 0.5f;
     }
 }
 
@@ -95,22 +103,26 @@
 
 #pragma mark - UIScrollViewDelegate
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView {
-    float rate = (scrollView.contentOffset.x - _xOffset)/scrollView.frame.size.width;
-    TabbarItem *sourceItem = self.items[_selectedIndex];
-    TabbarItem *destinationItem = nil;
-    if (rate > 0) {
-        if (_selectedIndex == self.items.count - 1) {
-            return;
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+        float rate = (scrollView.contentOffset.x - _xOffset)/scrollView.frame.size.width;
+        TabbarItem *sourceItem = self.items[_selectedIndex];
+        TabbarItem *destinationItem = nil;
+        if (rate > 0) {
+            if (_selectedIndex == self.items.count - 1) {
+                return;
+            }
+            destinationItem = self.items[_selectedIndex + 1];
+        } else {
+            if (_selectedIndex == 0) {
+                return;
+            }
+            destinationItem = self.items[_selectedIndex - 1];
         }
-        destinationItem = self.items[_selectedIndex + 1];
-    } else {
-        if (_selectedIndex == 0) {
-            return;
-        }
-        destinationItem = self.items[_selectedIndex - 1];
-    }
-    sourceItem.highLightDegree = 1 - fabsf(rate) ;
-    destinationItem.highLightDegree = fabsf(rate);
+        dispatch_async(dispatch_get_main_queue(), ^{
+            sourceItem.highLightDegree = 1 - fabsf(rate) ;
+            destinationItem.highLightDegree = fabsf(rate);
+        });
+    });
 }
 
 - (void)scrollViewWillBeginDragging:(UIScrollView *)scrollView {
