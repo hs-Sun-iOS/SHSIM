@@ -27,6 +27,9 @@
 #import "XMPPvCardTempModule.h"
 #import "XMPPvCardCoreDataStorage.h"
 #import "XMPPvCardAvatarModule.h"
+#import "DDLog.h"
+#import "DDTTYLogger.h"
+#import "XMPPvCardTemp.h"
  
 // List the modules you're using here:
 // (the following may not be a complete list)

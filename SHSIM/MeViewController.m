@@ -19,9 +19,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.view.layer.shadowOffset = CGSizeMake(5, 0);
-    self.view.layer.shadowOpacity = 0.5f;
+    NSLog(@"%@",[NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) lastObject]);
 }
+
 
 
 - (IBAction)LogoutBtnClick:(id)sender {

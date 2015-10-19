@@ -17,8 +17,6 @@
 		183AD2091BB17B6B009ABBBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 183AD2071BB17B6B009ABBBB /* Main.storyboard */; };
 		183AD20B1BB17B6B009ABBBB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 183AD20A1BB17B6B009ABBBB /* Images.xcassets */; };
 		183AD21A1BB17B6B009ABBBB /* SHSIMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 183AD2191BB17B6B009ABBBB /* SHSIMTests.m */; };
-		183AD2251BB17BFE009ABBBB /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 183AD2241BB17BFE009ABBBB /* libxml2.dylib */; };
-		183AD42F1BB17CD3009ABBBB /* libresolv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 183AD42E1BB17CD3009ABBBB /* libresolv.dylib */; };
 		183AD5801BB1ACC8009ABBBB /* XMPPAnonymousAuthentication.m in Sources */ = {isa = PBXBuildFile; fileRef = 183AD4361BB1ACC8009ABBBB /* XMPPAnonymousAuthentication.m */; };
 		183AD5811BB1ACC8009ABBBB /* XMPPDeprecatedDigestAuthentication.m in Sources */ = {isa = PBXBuildFile; fileRef = 183AD4391BB1ACC8009ABBBB /* XMPPDeprecatedDigestAuthentication.m */; };
 		183AD5821BB1ACC8009ABBBB /* XMPPDeprecatedPlainAuthentication.m in Sources */ = {isa = PBXBuildFile; fileRef = 183AD43C1BB1ACC8009ABBBB /* XMPPDeprecatedPlainAuthentication.m */; };
@@ -197,8 +195,6 @@
 		183AD2181BB17B6B009ABBBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		183AD2191BB17B6B009ABBBB /* SHSIMTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHSIMTests.m; sourceTree = "<group>"; };
 		183AD2231BB17B92009ABBBB /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		183AD2241BB17BFE009ABBBB /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
-		183AD42E1BB17CD3009ABBBB /* libresolv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libresolv.dylib; path = usr/lib/libresolv.dylib; sourceTree = SDKROOT; };
 		183AD4351BB1ACC8009ABBBB /* XMPPAnonymousAuthentication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPPAnonymousAuthentication.h; sourceTree = "<group>"; };
 		183AD4361BB1ACC8009ABBBB /* XMPPAnonymousAuthentication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMPPAnonymousAuthentication.m; sourceTree = "<group>"; };
 		183AD4381BB1ACC8009ABBBB /* XMPPDeprecatedDigestAuthentication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPPDeprecatedDigestAuthentication.h; sourceTree = "<group>"; };
@@ -503,8 +499,6 @@
 				18B9C0621BCD6BB500DC5FAA /* libresolv.tbd in Frameworks */,
 				18B9C0601BCD6BA300DC5FAA /* libxml2.tbd in Frameworks */,
 				183AD5FF1BB1ACC8009ABBBB /* libidn.a in Frameworks */,
-				183AD42F1BB17CD3009ABBBB /* libresolv.dylib in Frameworks */,
-				183AD2251BB17BFE009ABBBB /* libxml2.dylib in Frameworks */,
 				2EC96A793B1BF81D53F07895 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -566,8 +560,6 @@
 			isa = PBXGroup;
 			children = (
 				183AD20A1BB17B6B009ABBBB /* Images.xcassets */,
-				183AD42E1BB17CD3009ABBBB /* libresolv.dylib */,
-				183AD2241BB17BFE009ABBBB /* libxml2.dylib */,
 				183AD1FE1BB17B6B009ABBBB /* Info.plist */,
 				183AD1FF1BB17B6B009ABBBB /* main.m */,
 				183AD2231BB17B92009ABBBB /* PrefixHeader.pch */,

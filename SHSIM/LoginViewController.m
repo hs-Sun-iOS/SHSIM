@@ -50,14 +50,14 @@
     RAC(self.loginBtn,enabled) = self.loginViewModel.loginBtnEnableSignal;
     [[self.loginBtn rac_signalForControlEvents:UIControlEventTouchUpInside] subscribeNext:^(id x) {
         dispatch_async(dispatch_get_main_queue(), ^{
-            [MBProgressHUD showMessage:@"正在登录..."];
             [self.view endEditing:YES];
+            [MBProgressHUD showMessage:@"正在登录..." toView:self.view];
         });
         [self.loginViewModel.loginCommend execute:nil];
     }];
     [self.loginViewModel.loginCompleteSubject subscribeNext:^(NSNumber *x) {
         dispatch_async(dispatch_get_main_queue(), ^{
-            [MBProgressHUD hideHUD];
+            [MBProgressHUD hideHUDForView:self.view animated:YES];
             [self hanleLoginResult:x.integerValue];
         });
     }];
@@ -135,6 +135,7 @@
         self.accountLabel.hidden = YES;
         self.accountTextField.hidden = NO;
         self.accountTextField.layer.borderColor = [UIColor grayColor].CGColor;
+        self.passwordTextField.layer.borderColor = [UIColor grayColor].CGColor;
         self.passwordTextField.text = @"";
     }];
 }

@@ -37,6 +37,7 @@
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         _manager = [[StreamManager alloc] init];
+        [DDLog addLogger:[DDTTYLogger sharedInstance]];
     });
     return _manager;
 }
@@ -60,8 +61,10 @@
     _vCardStorage = [XMPPvCardCoreDataStorage sharedInstance];
     _vCard = [[XMPPvCardTempModule alloc] initWithvCardStorage:_vCardStorage];
     [_vCard activate:_stream];
+    
     _avatar = [[XMPPvCardAvatarModule alloc] initWithvCardTempModule:_vCard];
     [_avatar activate:_stream];
+    
     NSError *error = nil;
     [_stream connectWithTimeout:XMPPStreamTimeoutNone error:&error];
 
